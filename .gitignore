@@ -1,4 +1,6 @@
 *.sw[op]
 ~*
 *~
+.DS_Store
+.Thumbsdb
 
