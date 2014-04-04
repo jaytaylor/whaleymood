@@ -7,6 +7,7 @@ img {
 body {
 	background-color:#ccc;
 	background-image:url('content/images/afternoon/image.jpg');
+    height:100%;
 	width:100%;
 	position:absolute;
 	top:0;
@@ -20,6 +21,32 @@ body.afternoon {
 }
 body.night {
 	background-image:url('content/images/afternoon/image.jpg');
+}
+
+#wrapper {
+    min-height:100%;
+    position:relative;
+}
+#header {
+    padding:10px;
+}
+#content {
+    padding:10px;
+    padding-bottom:80px;   /* Height of the footer element */
+}
+#footer {
+    width:100%;
+    height:25px;
+    position:absolute;
+    bottom:0;
+    left:0;
+    background:#222;
+    color:#ccc;
+    text-align:center;
+}
+
+a, a:visited {
+    color:#fff;
 }
 
 .whaleymood {

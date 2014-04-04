@@ -22,20 +22,29 @@
         <script src="main.js"></script>
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://google.com/chrome">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+        <div id="wrapper">
+            <!--[if lt IE 7]>
+                <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://google.com/chrome">upgrade your browser</a> to improve your experience.</p>
+            <![endif]-->
 
-        <!-- Content -->
-        <div class="whaleymood">Whaley Mood</div>
-        <div class="tagline">Whales are really deep</div>
-        <button id="pause-btn" class="control-btn" onclick="toggle('pause');"></button>
-        <audio id="player">
-            <source src="content/sounds/60-minutes-of-underwater-ambient-whale-sounds.mp3" type="audio/mp3"/>
-            <source src="content/sounds/60-minutes-of-underwater-ambient-whale-sounds.m4a" type="audio/mp4"/>
-            <source src="content/sounds/60-minutes-of-underwater-ambient-whale-sounds.ogg" type="audio/ogg; codecs=vorbis"/>
-            Your browser does not support the audio element.
-        </audio>
+            <!-- Content -->
+            <div id="header">
+                <div class="whaleymood">Whaley Mood</div>
+                <div class="tagline">Whales are really deep</div>
+            </div>
+
+            <div id="content">
+                <button id="pause-btn" class="control-btn" onclick="toggle('pause');"></button>
+                <audio id="player">
+                    <source src="content/sounds/60-minutes-of-underwater-ambient-whale-sounds.mp3" type="audio/mp3"/>
+                    <source src="content/sounds/60-minutes-of-underwater-ambient-whale-sounds.m4a" type="audio/mp4"/>
+                    <source src="content/sounds/60-minutes-of-underwater-ambient-whale-sounds.ogg" type="audio/ogg; codecs=vorbis"/>
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div id="footer">Another snazzy audio loop: <a href="http://coding.fm/">coding.fm</a></div>
+        </div>
 
         <script src="main.js"></script>
 
