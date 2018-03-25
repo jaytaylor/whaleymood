@@ -1,6 +1,8 @@
-*.sw[op]
-~*
-*~
-.DS_Store
-.Thumbsdb
+*.sw[opa]
 
+.DS_Store
+
+/content/sounds/*.m4a
+/content/sounds/*.mp3
+/content/sounds/*.ogg
+/content/sounds/*.tar
